@@ -1,0 +1,96 @@
+body	{
+	margin: 0;
+	padding: 0;
+}
+/* Top */
+.home	{
+	background-image: url(http://www.refrigeratedfrozenfood.com/ext/resources/NEW_RD_Website/DefaultImages/default-pasta.jpg?1430942591);
+	background-size: cover;
+	width: 100%;
+	height: 670px;
+}
+.top	{
+	background-color: rgba(2, 2, 2, 0.8);
+	width: 100%;
+	height: 100px;
+}
+.pipa	{
+	width: 150px;
+	height: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+}
+.logo	{
+	width: 120px;
+	height: 110px;
+	float: right;
+	margin-right: 50%;
+}
+
+/* Navigation */
+nav {
+	margin-top: 10px;
+}
+ul {
+	list-style-type: none;
+	margin-left: 250px;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 15px;
+}
+li a:hover	{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.reservation	{
+	width: 200px;
+	height: 50px;
+	color: #ffffff;
+	background-color: rgba(2, 2, 2, 08);
+	border: 1px solid #ffffff;
+	margin: 100px 520px;
+}
+.reservation p {
+	text-align: center;
+}
+.reservation:hover	{
+	color: #000000;
+	background-color: #ffffff;
+}
+.left 	{
+	margin-left: 200px;
+}
+.information	{
+	width: 200px;
+	height: 250px;
+	background-color: rgba(2, 2, 2, 0.8);
+	color: #ffffff;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+.information h4	{
+	color: #ffffff;
+	text-align: center;
+}
+.information p {
+	padding: 5px;
+}
+.information a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.information a:hover	{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
