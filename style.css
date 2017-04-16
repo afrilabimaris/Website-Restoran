@@ -1,46 +1,67 @@
 body	{
 	margin: 0;
 	padding: 0;
+	background-color: #818283;
+}
+h1,h4	{
+	text-align: center;
 }
 /* Top */
 .home	{
 	background-image: url(http://www.refrigeratedfrozenfood.com/ext/resources/NEW_RD_Website/DefaultImages/default-pasta.jpg?1430942591);
 	background-size: cover;
 	width: 100%;
-	height: 670px;
+	height: 700px;
 }
 .top	{
 	background-color: rgba(2, 2, 2, 0.8);
 	width: 100%;
 	height: 100px;
 }
-.pipa	{
-	width: 150px;
-	height: 10px;
-	border-radius: 10px;
-	border: 1px solid #ffffff;
-}
 .logo	{
 	width: 120px;
 	height: 110px;
-	float: right;
-	margin-right: 50%;
+	margin-left: 580px;
 }
 
 /* Navigation */
+.navig 	{
+	width: 100%;
+	height: 100px;
+}
 nav {
 	margin-top: 10px;
+	overflow: hidden;
 }
-ul {
+nav.fixed	{
+	background-color: rgba(2, 2, 2, 0.8);
+	position: fixed;
+	margin-top: -100px;
+	top: -100px;
+	width: 100%;
+	z-index: 999;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	-webkit-transform: translateY(200px);
+	-ms-transform: translateY(200px);
+	-o-transform: translateY(200px);
+	transform: translateY(200px);
+}
+nav ul {
 	list-style-type: none;
 	margin-left: 250px;
 	padding: 0;
 	overflow: hidden;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
-li {
+nav li {
 	float: left;
+	display: inline-block;
 }
-li a {
+nav li a {
 	display: block;
 	color: #ffffff;
 	text-align: center;
@@ -48,7 +69,7 @@ li a {
 	text-decoration: none;
 	font-size: 15px;
 }
-li a:hover	{
+nav li a:hover	{
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 }
@@ -58,7 +79,7 @@ li a:hover	{
 	color: #ffffff;
 	background-color: rgba(2, 2, 2, 08);
 	border: 1px solid #ffffff;
-	margin: 100px 520px;
+	margin: 80px 560px;
 }
 .reservation p {
 	text-align: center;
@@ -68,11 +89,11 @@ li a:hover	{
 	background-color: #ffffff;
 }
 .left 	{
-	margin-left: 200px;
+	margin-left: 260px;
 }
 .information	{
 	width: 200px;
-	height: 250px;
+	height: 240px;
 	background-color: rgba(2, 2, 2, 0.8);
 	color: #ffffff;
 	display: inline-block;
@@ -91,6 +112,34 @@ li a:hover	{
 	text-decoration: none;
 }
 .information a:hover	{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.content	{
+	width: 230px;
+	height: 400px;
+	background-color: rgba(2, 2, 2, 0.8);
+	color: #ffffff;
+	display: inline-block;
+	position: relative;
+	margin: 15px;
+}
+.content img 	{
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+.content h2	{
+	margin-left: 90px;
+}
+.content p	{
+	margin: 10px
+}
+.content a	{
+	color: #ffffff;
+	text-decoration: none;
+}
+.content a:hover	{
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 }
